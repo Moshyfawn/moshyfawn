@@ -1,6 +1,6 @@
 {
-  "name": "@example/minimal",
-  "version": "0.0.1-alpha.0",
+  "name": "moshyfawn",
+  "version": "0.0.1-alpha.1",
   "description": "All things moshyfawn",
   "private": true,
   "author": {
