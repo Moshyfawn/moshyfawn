@@ -1,0 +1,46 @@
+---
+import './layout.css'
+
+export interface Props {
+	title: string;
+	description?: string
+}
+
+const { title, description = '' } = Astro.props as Props;
+const { pathname } = Astro.canonicalURL
+---
+
+<html lang="en" class="h-full">
+
+<head>
+
+	<!-- Primary Meta Tags -->
+	<title>{title}</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="title" content={title} />
+	<meta name="description" content={description} />
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content={pathname} />
+	<meta property="twitter:title" content={title} />
+	<meta property="twitter:description" content={description} />
+	<meta property="twitter:image" content="https://astro.build/social.png?v=1" />
+
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+
+<body class="text-gray-700 bg-gray-100 min-h-full flex flex-col max-w-7xl mx-auto p-4 md:p-8">
+	<header class="flex justify-end gap-2">
+		<a class="underline text-base" href="https://github.com/Moshyfawn">Github
+		</a>
+		<a class="underline text-base" href="https://twitter.com/moshyfawn">Twitter
+		</a>
+	</header>
+	<slot />
+	<footer class="flex justify-end">
+		<span class="text-xs text-gray-700">v.{import.meta.env.npm_package_version}</span>
+	</footer>
+</body>
+
+</html>

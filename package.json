@@ -1,0 +1,22 @@
+{
+  "name": "@example/minimal",
+  "version": "0.0.1-alpha.0",
+  "description": "All things moshyfawn",
+  "private": true,
+  "author": {
+    "name": "moshyfawn"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^0.2.1",
+    "astro": "^1.0.0-beta.47"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "^4.5.11"
+  }
+}
