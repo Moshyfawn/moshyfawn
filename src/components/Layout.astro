@@ -1,6 +1,5 @@
 ---
 import './layout.css'
-import banner from '/assets/banner.jpg'
 
 export interface Props {
 	title: string;
@@ -30,14 +29,14 @@ const { pathname } = Astro.canonicalURL
 	<meta property="og:url" content={pathname} />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:image" content={banner} />
+	<meta property="og:image" content='/assets/banner.jpg' />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content={pathname} />
 	<meta property="twitter:title" content={title} />
 	<meta property="twitter:description" content={description} />
-	<meta property="twitter:image" content={banner} />
+	<meta property="twitter:image" content='/assets/banner.jpg' />
 </head>
 
 <body class="text-gray-700 bg-gray-100 min-h-full flex flex-col max-w-7xl mx-auto p-4 md:p-8">
