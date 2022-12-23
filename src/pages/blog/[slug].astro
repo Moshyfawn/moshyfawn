@@ -1,0 +1,33 @@
+---
+import BlogPostMeta from '../../components/BlogPostMeta.astro'
+import ContentLayout from '../../layouts/ContentLayout.astro'
+import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
+import { SITE_TITLE } from 'src/config'
+
+export async function getStaticPaths() {
+	const blogPosts = await getCollection('blog')
+
+	return blogPosts.map(post => ({
+		params: { slug: post.slug },
+		props: { post }
+	}))
+}
+
+type Props = {
+	post: CollectionEntry<'blog'>
+}
+
+const { post } = Astro.props
+const { Content } = await post.render()
+---
+
+<ContentLayout title={post.data.title} date={post.data.date}>
+	<BlogPostMeta
+		title={`${post.data.title} | ${SITE_TITLE}`}
+		description={post.data.description}
+		publishDate={post.data.date.toISOString()}
+		slot='meta'
+	/>
+	<Content slot='content' />
+</ContentLayout>
