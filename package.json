@@ -13,8 +13,13 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^0.2.1",
-    "astro": "^1.0.0-beta.47"
+		"@typescript-eslint/parser": "^5.47.0",
+		"eslint": "^8.30.0",
+		"eslint-plugin-astro": "^0.21.1",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"prettier": "^2.8.1",
+		"prettier-plugin-astro": "^0.7.0",
+		"prettier-plugin-tailwindcss": "^0.2.1",
   },
 	"volta": {
 		"node": "19.2.0",
