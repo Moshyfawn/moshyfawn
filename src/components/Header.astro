@@ -1,0 +1,29 @@
+---
+const pathname = new URL(Astro.request.url).pathname
+const currentPath = pathname.slice(1)
+---
+
+<header class='flex items-center py-4'>
+	<a
+		class='absolute left-1/2 -translate-x-1/2 -translate-y-[200%] py-1 px-0.5 transition-transform ease-out focus-visible:translate-y-1 motion-reduce:transition-none'
+		href='#main'>Skip to content</a
+	>
+	<nav class='flex-grow'>
+		<section>
+			<ul class='flex gap-x-4'>
+				<li>
+					<a href='/' class:list={['underline', { 'font-bold': !currentPath }]}>Home</a>
+				</li>
+				<li>
+					<a href='/blog' class:list={['underline', { 'font-bold': currentPath.includes('blog') }]}
+						>Blog</a
+					>
+				</li>
+			</ul>
+		</section>
+	</nav>
+	<div class='flex justify-between gap-x-4 text-secondary-light dark:text-secondary-dark'>
+		<a href='https://github.com/Moshyfawn' class='h-6 underline'> Github &#8599</a>
+		<a href='https://twitter.com/moshyfawn' class='h-6 underline'>Twitter &#8599</a>
+	</div>
+</header>
