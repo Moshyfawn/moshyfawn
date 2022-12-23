@@ -9,6 +9,11 @@ export default defineConfig({
 		contentCollections: true
 	},
 	site: 'https://moshyfawn.dev',
+	vite: {
+		define: {
+			__APP_VERSION__: JSON.stringify(process.env.npm_package_version)
+		}
+	},
 	integrations: [
 		sitemap(),
 		tailwind(),
