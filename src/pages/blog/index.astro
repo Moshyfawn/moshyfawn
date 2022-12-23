@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content'
+import PageMeta from 'src/components/PageMeta.astro'
+import { SITE_TITLE } from 'src/config'
+import PageLayout from 'src/layouts/PageLayout.astro'
+
+const blogPosts = await getCollection('blog')
+
+const sortedPosts = blogPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+---
+
+<PageLayout>
+	<PageMeta title={`Blog | ${SITE_TITLE}`} slot='meta' />
+	<section>
+		<ul class='space-y-4'>
+			{
+				sortedPosts.map(post => {
+					// TODO: intl
+					const formattedDate = new Date(post.data.date).toLocaleDateString('en-us', {
+						year: 'numeric',
+						month: 'short',
+						day: 'numeric'
+					})
+					return (
+						<li class='grid grid-cols-2 gap-x-4 sm:grid-cols-3'>
+							<div class='col-span-2'>
+								<a href={`/blog/${post.slug}`}>{post.data.title}</a>
+							</div>
+							<div>
+								<time
+									datetime={post.data.date.toISOString()}
+									class='text-secondary-light dark:text-secondary-dark'
+								>
+									{formattedDate}
+								</time>
+							</div>
+						</li>
+					)
+				})
+			}
+		</ul>
+	</section>
+</PageLayout>
