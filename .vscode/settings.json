@@ -1,4 +1,11 @@
 {
+	"cSpell.words": [
+		"astro",
+		"astrojs",
+		"moshyfawn",
+		"tailwindcss",
+		"tsconfigs"
+	],
 	"prettier.documentSelectors": ["**/*.astro"],
 	"[astro]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
