@@ -1,19 +1,14 @@
-# build output
-dist/
+# Build directories and files
+node_modules
+dist
+.env*
+!.env.example
 
-# dependencies
-node_modules/
-
-# logs
-npm-debug.log*
+# Logs
+logs
+*.log
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-
-# environment variables
-.env
-.env.production
-
-# macOS-specific files
+# MacOS
 .DS_Store

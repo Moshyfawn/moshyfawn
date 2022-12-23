@@ -1,13 +1,9 @@
 ---
-import Layout from "../components/Layout.astro";
+import PageMeta from 'src/components/PageMeta.astro'
+import PageLayout from 'src/layouts/PageLayout.astro'
+import { SITE_TITLE } from '../config'
 ---
 
-<Layout title='moshyfawn'
-	description="Software engineer with quirks. Give me all the new shiny tech and I'll have all the fuel needed to create any project!">
-	<main class="flex-auto flex justify-center items-center">
-		<section class="text-center">
-			<h1 class="mb-3.5 text-4xl sm:text-5xl font-bold">moshyfawn</h1>
-			<p class="mt-4 text-lg sm:text-xl">Software Engineer</p>
-		</section>
-	</main>
-</Layout>
+<PageLayout>
+	<PageMeta title={SITE_TITLE} slot='meta' />
+</PageLayout>

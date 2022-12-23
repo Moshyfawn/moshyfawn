@@ -1,3 +1,5 @@
-# All things moshyfawn
+# Moshyfawn's Corner
 
-A place for me to unwind working and experimenting on some features, I'm interested in.
+An all things moshyfawn place on the Internet; primarily related but not limited to programming
+
+Check out the website here - [Moshyfawn's Corner](https://moshyfawn.dev/)
