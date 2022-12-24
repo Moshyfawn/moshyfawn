@@ -14,3 +14,9 @@
 
 - Tailwind config + theme
 - SEO
+
+## [1.0.1] (2022-12-23)
+
+### Changed
+
+- Set landing height to small viewport (prevent scroll on mobile with auto-hide toolbar)

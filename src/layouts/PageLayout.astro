@@ -14,9 +14,9 @@ import Footer from '../components/Footer.astro'
 		<script defer src='/_vercel/insights/script.js'></script>
 		<slot name='meta' />
 	</head>
-
+	<!-- INFO: not sure about browser compatability but it prevents mobile with "hide-on-scroll" toolbars to overflow -->
 	<body
-		class='mx-auto flex min-h-screen max-w-3xl flex-col bg-light px-4 text-primary-light dark:bg-dark dark:text-primary-dark sm:px-8'
+		class='mx-auto flex h-[100svh] max-w-3xl flex-col bg-light px-4 text-primary-light dark:bg-dark dark:text-primary-dark sm:px-8'
 	>
 		<Header />
 		<main id='main' class='flex-grow'>
