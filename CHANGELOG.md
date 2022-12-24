@@ -20,3 +20,9 @@
 ### Changed
 
 - Set landing height to small viewport (prevent scroll on mobile with auto-hide toolbar)
+
+## [1.0.2] (2022-12-23)
+
+### Added
+
+- Introduction blog post. Consider it a patch bump as it updates the generated content types
