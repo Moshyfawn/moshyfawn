@@ -22,6 +22,6 @@ export default defineConfig({
 			extendPlugins: 'astroDefaults'
 		})
 	],
-	output: 'server',
+	output: 'static',
 	adapter: vercel()
 })
