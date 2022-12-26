@@ -13,7 +13,7 @@ export const get = async () => {
 			title: post.data.title,
 			description: post.data.description,
 			pubDate: post.data.date,
-			link: post.slug
+			link: 'blog/' + post.slug
 		}))
 	})
 }
