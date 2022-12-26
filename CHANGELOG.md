@@ -38,3 +38,9 @@
 ### Added
 
 - Landing heading
+
+## [1.1.0] (2022-12-26)
+
+### Changed
+
+- Fixed RSS blog post link
