@@ -3,7 +3,7 @@ const colors = require('tailwindcss/colors')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	darkMode: 'media',
-	content: ['./src/**/*.{astro,md}'],
+	content: ['./src/**/*.{astro,js,md}'],
 	theme: {
 		extend: {
 			typography: () => ({
@@ -56,7 +56,7 @@ module.exports = {
 			}
 		},
 		backgroundColor: {
-			light: colors.gray[100],
+			light: '#cccccc',
 			dark: colors.zinc[900]
 		}
 	},

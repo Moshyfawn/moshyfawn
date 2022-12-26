@@ -11,7 +11,8 @@ const sortedPosts = blogPosts.sort((a, b) => b.data.date.getTime() - a.data.date
 
 <PageLayout>
 	<PageMeta title={`Blog | ${SITE_TITLE}`} slot='meta' />
-	<section>
+	<h1 class='mr-2 mb-4 mt-8 inline-block text-5xl'>Moshyfawn's Blog</h1>
+	<section class='mt-4'>
 		<ul class='space-y-4'>
 			{
 				sortedPosts.map(post => {
@@ -22,18 +23,19 @@ const sortedPosts = blogPosts.sort((a, b) => b.data.date.getTime() - a.data.date
 						day: 'numeric'
 					})
 					return (
-						<li class='grid grid-cols-2 gap-x-4 sm:grid-cols-3'>
-							<div class='col-span-2'>
-								<a href={`/blog/${post.slug}`}>{post.data.title}</a>
-							</div>
+						<li>
+							<a href={`/blog/${post.slug}`} class='underline'>
+								<h3 class='text-2xl'>{post.data.title}</h3>
+							</a>
 							<div>
 								<time
 									datetime={post.data.date.toISOString()}
-									class='text-secondary-light dark:text-secondary-dark'
+									class='text-secondary-light dark:text-secondary-dark text-sm'
 								>
 									{formattedDate}
 								</time>
 							</div>
+							<p>{post.data.description}</p>
 						</li>
 					)
 				})
