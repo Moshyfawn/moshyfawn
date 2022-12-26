@@ -51,3 +51,9 @@
 
 - RSS header link
 - RSS SEO link
+
+## [1.2.1] (2022-12-26)
+
+### Changed
+
+- Fixed RSS blog post meta link
