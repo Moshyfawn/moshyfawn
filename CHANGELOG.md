@@ -44,3 +44,10 @@
 ### Changed
 
 - Fixed RSS blog post link
+
+## [1.2.0] (2022-12-26)
+
+### Added
+
+- RSS header link
+- RSS SEO link
