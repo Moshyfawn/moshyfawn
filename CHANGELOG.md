@@ -26,3 +26,9 @@
 ### Added
 
 - Introduction blog post. Consider it a patch bump as it updates the generated content types
+
+## [1.0.3] (2022-12-26)
+
+### Added
+
+- robots.txt

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moshyfawn.dev/sitemap-index.xml
