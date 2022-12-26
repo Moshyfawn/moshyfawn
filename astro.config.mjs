@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config'
 import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
 import mdx from '@astrojs/mdx'
+import vercel from '@astrojs/vercel/static'
 
 // https://astro.build/config
 export default defineConfig({
@@ -20,5 +21,7 @@ export default defineConfig({
 		mdx({
 			extendPlugins: 'astroDefaults'
 		})
-	]
+	],
+	output: 'server',
+	adapter: vercel()
 })
