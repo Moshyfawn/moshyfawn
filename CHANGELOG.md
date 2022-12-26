@@ -32,3 +32,9 @@
 ### Added
 
 - robots.txt
+
+## [1.0.4] (2022-12-26)
+
+### Added
+
+- Landing heading
