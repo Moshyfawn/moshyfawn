@@ -63,3 +63,9 @@
 ### Changed
 
 - Adopt landing heading to small screens
+
+## [1.3.0] (2022-12-27)
+
+### Added
+
+- Added comment section via [giscus](https://github.com/giscus/giscus)
