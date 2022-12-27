@@ -57,3 +57,9 @@
 ### Changed
 
 - Fixed RSS blog post meta link
+
+## [1.2.2] (2022-12-27)
+
+### Changed
+
+- Adopt landing heading to small screens
