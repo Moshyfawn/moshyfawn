@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: A few words about myself and what value my little corner of the Internet might bring you
-date: 11-23-2022
+date: 12-23-2022
 ---
 
 Welcome to my blog! I go by **moshyfawn** on the Internet and I am a software engineer with a passion for creating and building innovative solutions. On this blog, I will be sharing my experiences and insights as a developer, as well as showcasing the projects and technologies that I am currently working on.
