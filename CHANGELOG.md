@@ -79,3 +79,9 @@
 ### Removed
 
 - Removed comment section in develop
+
+## [1.3.2] (2022-12-31)
+
+### Added
+
+- Added comment section in develop
