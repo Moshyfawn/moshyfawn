@@ -69,3 +69,13 @@
 ### Added
 
 - Added comment section via [giscus](https://github.com/giscus/giscus)
+
+## [1.3.1] (2022-12-31)
+
+### Added
+
+- 2022 in review blog post
+
+### Removed
+
+- Removed comment section in develop
