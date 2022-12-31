@@ -31,5 +31,5 @@ const { Content } = await post.render()
 		slot='meta'
 	/>
 	<Content slot='content' />
-	{import.meta.env.PROD && <Discussion slot='content' />}
+	<Discussion slot='content' />
 </ContentLayout>
