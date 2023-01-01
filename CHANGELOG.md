@@ -85,3 +85,9 @@
 ### Added
 
 - Added comment section in develop
+
+## [1.3.3] (2022-12-31)
+
+### Changed
+
+- Blog list layout
