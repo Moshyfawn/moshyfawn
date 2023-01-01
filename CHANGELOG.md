@@ -57,3 +57,31 @@
 ### Changed
 
 - Fixed RSS blog post meta link
+
+## [1.2.2] (2022-12-27)
+
+### Changed
+
+- Adopt landing heading to small screens
+
+## [1.3.0] (2022-12-27)
+
+### Added
+
+- Added comment section via [giscus](https://github.com/giscus/giscus)
+
+## [1.3.1] (2022-12-31)
+
+### Added
+
+- 2022 in review blog post
+
+### Removed
+
+- Removed comment section in develop
+
+## [1.3.2] (2022-12-31)
+
+### Added
+
+- Added comment section in develop

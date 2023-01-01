@@ -4,6 +4,7 @@ import ContentLayout from '../../layouts/ContentLayout.astro'
 import { getCollection } from 'astro:content'
 import type { CollectionEntry } from 'astro:content'
 import { SITE_TITLE } from 'src/config'
+import Discussion from 'src/components/Discussion.astro'
 
 export async function getStaticPaths() {
 	const blogPosts = await getCollection('blog')
@@ -30,4 +31,5 @@ const { Content } = await post.render()
 		slot='meta'
 	/>
 	<Content slot='content' />
+	<Discussion slot='content' />
 </ContentLayout>
