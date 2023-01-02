@@ -91,3 +91,10 @@
 ### Changed
 
 - Blog list layout
+
+## [1.3.4] (2023-01-02)
+
+### Added
+
+- Nested headings links
+- External links icons
