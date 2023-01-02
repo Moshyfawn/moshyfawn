@@ -14,10 +14,12 @@
 	},
 	"dependencies": {
 		"astro": "^1.7.2",
-		"giscus": "^1.2.6"
+		"giscus": "^1.2.6",
+		"rehype-autolink-headings": "^6.1.1",
+		"rehype-external-links": "^2.0.1",
+		"rehype-slug": "^5.1.0"
 	},
 	"devDependencies": {
-		"@astrojs/mdx": "^0.13.0",
 		"@astrojs/prism": "^1.0.2",
 		"@astrojs/rss": "^1.2.1",
 		"@astrojs/sitemap": "^1.0.0",
