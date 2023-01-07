@@ -1,7 +1,7 @@
 ---
 title: "Announcing Formalityx: In Search of the Right Abstraction"
 description: Gain insight into my thought process when engineering a form management solution. Explore the level of abstraction that I believe is both efficient and capable of meeting the majority of needs for a positive user experience with forms.
-date: 01-06-2023
+date: 01-07-2023
 ---
 The title of this blog post is highly engaging and promising, but its description better reflects the contents.
 
