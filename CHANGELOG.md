@@ -98,3 +98,9 @@
 
 - Nested headings links
 - External links icons
+
+## [1.3.5] (2023-01-07)
+
+### Added
+
+- In Search of the Right Abstraction

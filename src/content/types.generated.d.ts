@@ -50,6 +50,13 @@ declare module 'astro:content' {
   collection: "blog",
   data: InferEntrySchema<"blog">
 },
+"in-search-of-the-right-abstraction.md": {
+  id: "in-search-of-the-right-abstraction.md",
+  slug: "in-search-of-the-right-abstraction",
+  body: string,
+  collection: "blog",
+  data: InferEntrySchema<"blog">
+},
 "introduction.md": {
   id: "introduction.md",
   slug: "introduction",
