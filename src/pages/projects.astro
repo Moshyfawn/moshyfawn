@@ -1,0 +1,23 @@
+---
+import PageMeta from 'src/components/PageMeta.astro'
+import PageLayout from 'src/layouts/PageLayout.astro'
+import { SITE_TITLE } from '../config'
+---
+
+<PageLayout>
+	<PageMeta title={`Projects | ${SITE_TITLE}`} />
+	<h1 class='mr-2 mb-4 mt-8 inline-block text-5xl'>Projects</h1>
+	<section>
+		<article>
+			<h2 class='text-2xl'>Tweetless</h2>
+			<p class='text-lg'>An extension to patch the new ridiculous character limit Twitter update</p>
+			<ul class="flex gap-x-4">
+				<li><a href='/extensions/tweetless.crx' class='underline'>Chrome</a></li>
+				<li>
+					<a href='#' class='text-secondary-light underline dark:text-secondary-dark'
+						>Firefox (Soon)</a>
+				</li>
+			</ul>
+		</article>
+	</section>
+</PageLayout>
