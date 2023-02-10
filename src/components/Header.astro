@@ -19,6 +19,13 @@ const currentPath = pathname.slice(1)
 						>Blog</a
 					>
 				</li>
+				<li>
+					<a
+						href='/projects'
+						class:list={['underline', { 'font-bold': currentPath.includes('projects') }]}
+						>Projects</a
+					>
+				</li>
 			</ul>
 		</section>
 	</nav>
