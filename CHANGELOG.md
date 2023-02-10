@@ -104,3 +104,10 @@
 ### Added
 
 - In Search of the Right Abstraction
+
+## [1.4.0] (2023-01-07)
+
+### Added
+
+- A draft Projects page
+- A link to a Tweetless chrome extension
