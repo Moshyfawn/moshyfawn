@@ -64,6 +64,13 @@ declare module 'astro:content' {
   collection: "blog",
   data: InferEntrySchema<"blog">
 },
+"proton-pass-beta.md": {
+  id: "proton-pass-beta.md",
+  slug: "proton-pass-beta",
+  body: string,
+  collection: "blog",
+  data: InferEntrySchema<"blog">
+},
 },
 
 	};
