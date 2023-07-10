@@ -111,3 +111,9 @@
 
 - A draft Projects page
 - A link to a Tweetless chrome extension
+
+## [1.4.1] (2023-07-09)
+
+### Added
+
+- Proton Pass Beta
