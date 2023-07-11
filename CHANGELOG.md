@@ -117,3 +117,9 @@
 ### Added
 
 - Proton Pass Beta
+
+## [1.4.2] (2023-07-10)
+
+### Added
+
+- Proton Pass Beta blog post resources links
