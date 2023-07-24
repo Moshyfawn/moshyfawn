@@ -123,3 +123,9 @@
 ### Added
 
 - Proton Pass Beta blog post resources links
+
+## [1.4.3] (2023-07-24)
+
+### Added
+
+- Mastodon social link
