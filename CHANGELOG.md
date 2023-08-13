@@ -129,3 +129,9 @@
 ### Added
 
 - Mastodon social link
+
+## [2.0.0] (2023-08-13)
+
+### Changed
+
+- Disallow GPTBot crawler
