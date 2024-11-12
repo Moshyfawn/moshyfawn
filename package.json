@@ -7,9 +7,6 @@
 		"name": "moshyfawn"
 	},
 	"license": "MIT",
-	"engines": {
-		"node": ">=19.2.0"
-	},
 	"packageManager": "yarn@1.22.19",
 	"scripts": {
 		"dev": "astro dev",
