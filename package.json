@@ -7,6 +7,10 @@
 		"name": "moshyfawn"
 	},
 	"license": "MIT",
+	"engines": {
+		"node": ">=19.2.0"
+	},
+	"packageManager": "yarn@1.22.19",
 	"scripts": {
 		"dev": "astro dev",
 		"build": "astro build",
@@ -33,9 +37,5 @@
 		"prettier-plugin-astro": "^0.7.0",
 		"prettier-plugin-tailwindcss": "^0.2.1",
 		"tailwindcss": "^3.2.4"
-	},
-	"volta": {
-		"node": "19.2.0",
-		"yarn": "1.22.19"
 	}
 }
